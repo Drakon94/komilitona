@@ -16,7 +16,9 @@
 <div class="form-group">
 <label class="col-md-4 control-label">Username</label>
 <div class="col-md-6">
-<input type="text" class="form-control" name="name" value="{{ old('name') }}">
+<input type="text" class="form-control" placeholder="John Doe" name="name" value="{{ old('name') }}" aria-describedby="helpBlock">
+<span id="helpBlock" class="help-block">This is your username (e.g., <em>John Doe</em>) and not your email address.</span>
+
 </div>
 </div>
 
