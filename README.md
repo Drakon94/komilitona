@@ -20,6 +20,9 @@ Since the portal is based on laravel, you should make sure to meet the laravel [
 * Run ``composer dumpautoload`` just in case
 * Run ``php artisan migrate`` to create the database tables
 * Run ``php artisan db:seed`` to seed your database
+* Run ``php artisan key:generate`` to set your cipher key
+
+If everything went well, the site is available at the ``/public`` directory.
 
 Be happy.
 
